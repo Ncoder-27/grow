@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow-Together - Business Networking Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        /* GT Walsheim Pro */
+        @font-face {
+            font-family: 'GT Walsheim Pro';
+            src: url('https://db.onlinewebfonts.com/t/a51b6375cc03cc3d296c6c3d489e46ab.woff2') format('woff2'),
+                 url('https://db.onlinewebfonts.com/t/a51b6375cc03cc3d296c6c3d489e46ab.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'GT Walsheim Pro';
+            src: url('https://db.onlinewebfonts.com/t/6bface95c5ea73ff8cd0a7e2ff1633e1.woff2') format('woff2'),
+                 url('https://db.onlinewebfonts.com/t/6bface95c5ea73ff8cd0a7e2ff1633e1.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'GT Walsheim Pro';
+            src: url('https://db.onlinewebfonts.com/t/302f5e3f2d0485d3b1e9be6d51dd2e57.woff2') format('woff2'),
+                 url('https://db.onlinewebfonts.com/t/302f5e3f2d0485d3b1e9be6d51dd2e57.woff') format('woff');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        /* Avenir LT Std */
+        @font-face {
+            font-family: 'Avenir LT Std';
+            src: url('https://db.onlinewebfonts.com/t/57c4f8d6b6b99f0b51d532a9320332f4.woff2') format('woff2'),
+                 url('https://db.onlinewebfonts.com/t/57c4f8d6b6b99f0b51d532a9320332f4.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Avenir LT Std';
+            src: url('https://db.onlinewebfonts.com/t/3ba32f32c04d26542aeebb26eda28a5a.woff2') format('woff2'),
+                 url('https://db.onlinewebfonts.com/t/3ba32f32c04d26542aeebb26eda28a5a.woff') format('woff');
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Grow-Together</a>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="login.html" class="cta-button secondary">Sign In</a>
+            <a href="register.html" class="cta-button accent">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="decorative-dot dot1"></div>
+        <div class="decorative-dot dot2"></div>
+        <div class="decorative-dot dot3"></div>
+        <div class="hero-card">
+            <div class="hero-content">
+                <div class="feature-tag">
+                    <i class="fas fa-handshake"></i> Business Network Platform
+                </div>
+                <h1>Grow-Together<br><span class="highlight">connect & grow</span></h1>
+                <p>Build strategic partnerships & scale your business globally.</p>
+                
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-button primary">Join Now</a>
+                    <a href="#how-it-works" class="cta-button secondary">Explore Opportunities</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/hero-img.jpg" alt="Business Partnership Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Grow-Together</h2>
+            <p class="about-intro">Grow-Together is a platform designed to connect business minds, helping them find the right partners, investors, and growth opportunities.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Networking</h3>
+                    <p>Connect with partners from around the world and expand your reach.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Strategic Partnerships</h3>
+                    <p>Find complementary businesses to create powerful collaborations.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Investment Opportunities</h3>
+                    <p>Connect with investors looking for promising ventures to support.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Growth Solutions</h3>
+                    <p>Access tools and resources to accelerate your business scaling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up & Create Profile</h3>
+                    <p>Create your business profile with relevant information and goals.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Discover Partners</h3>
+                    <p>Browse and find potential business partners that match your needs.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Connect & Collaborate</h3>
+                    <p>Reach out and establish meaningful business relationships.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Grow Your Business</h3>
+                    <p>Leverage partnerships to achieve sustainable business growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Grow-Together helped me find the perfect investor for my startup. The platform's networking capabilities are unmatched!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.ibb.co/SrCHsXh/testimonial-1.jpg" alt="John Doe">
+                            <div>
+                                <h4>John Doe</h4>
+                                <p>CEO, TechStart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The strategic partnerships I've formed through Grow-Together have transformed my business completely. I've seen 200% growth since joining."</p>
+                        <div class="testimonial-author">
+                            <img src="https://i.ibb.co/pLVSY7X/testimonial-2.jpg" alt="Jane Smith">
+                            <div>
+                                <h4>Jane Smith</h4>
+                                <p>Founder, InnovateCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Start Your Growth Journey Today!</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button accent">Subscribe</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-envelope"></i> contact@grow-together.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Grow-Together. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
